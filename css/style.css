@@ -1,3 +1,31 @@
+/* 
+
+------------------
+Template Name: Merestora Template
+Author: mehedihassandevm
+Author Email: mh582689@gmail.com
+Version: 1.00
+----------------
+
+----------------
+Table of Content
+----------------
+1.Navbar Part
+2.Banner Part
+3.Special Part
+4.Menu Part 
+5.Team Part
+6.Review Part
+7.Book A Table Part
+8.Opening Hour Part
+9.Gallary Part
+11.Blog Part
+12.Contact Part
+
+*/
+
+
+
 
 * {
     margin: 0;
@@ -54,7 +82,7 @@ h6 {
     width: 40px;
     height: 40px;
     color: #222;
-    background: #F7FA00;
+    background: #ED4E53;
     line-height: 40px;
     text-align: center;
 }
@@ -103,7 +131,7 @@ h6 {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #F7FA00;
+    color: #ED4E53;
 }
 
 .navbar-light .navbar-brand:hover {
@@ -118,7 +146,7 @@ h6 {
 
 .navbar-cmt {
     padding: 15px 20px;
-    background: #F7FA00;
+    background: #ED4E53;
 
 }
 
@@ -145,7 +173,7 @@ h6 {
 }
 
 .navbar-brand span {
-    color: #F7FA00;
+    color: #ED4E53;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -157,22 +185,22 @@ h6 {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-    color: #F7FA00;
+    color: #ED4E53;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #F7FA00;
+    color: #ED4E53;
 }
 
 
 .hvr-underline-from-center:before {
-    background: #F7FA00;
+    background: #ED4E53;
     height: 1px;
 }
 
 
-.navbar-brand img{
+.navbar-brand img {
     padding: 0 10px;
 }
 
@@ -181,7 +209,7 @@ h6 {
 #banner {
     padding-top: 250px;
     padding-bottom: 150px;
-    background: url(../img/banner.jpg);
+    background: url(../img/banner/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -253,7 +281,7 @@ h6 {
     font-size: 16px;
     font-weight: 400;
     font-family: 'Alegreya', serif;
-    color: #F7FA00;
+    color: #ED4E53;
     letter-spacing: 2px;
     padding: 0 10px;
     transition: all linear .3s;
@@ -276,7 +304,7 @@ h6 {
 
 .banner-a a:hover {
     text-decoration: none;
-    background: #F7FA00;
+    background: #ED4E53;
     color: #222;
 }
 
@@ -328,7 +356,7 @@ h6 {
     font-family: 'Alegreya', serif;
     color: #222;
     padding: 10px 20px;
-    background: #F7FA00;
+    background: #ED4E53;
     position: absolute;
     top: 48%;
     left: 50%;
@@ -371,21 +399,7 @@ h6 {
 #menu {
     padding-top: 80px;
     padding-bottom: 50px;
-    background: url(../img/menu.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-
-#menu:after {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: #fff;
 }
 
 .menu-header {
@@ -407,7 +421,7 @@ h6 {
     font-size: 32px;
     font-weight: 500;
     font-family: 'Great Vibes', cursive;
-    color: #fff;
+    color: #222;
     padding-bottom: 15px;
 }
 
@@ -415,7 +429,7 @@ h6 {
     font-size: 20px;
     font-weight: 400;
     font-family: 'Alegreya', serif;
-    color: #fff;
+    color: #222;
 }
 
 .menu-header {
@@ -427,78 +441,101 @@ h6 {
 }
 
 .menu-item {
-    border: 1px solid #fff;
     padding: 0 40px;
     margin-top: 30px;
-    background: rgba(18, 16, 18, 0.6);
     padding-top: 20px;
     padding-bottom: 10px;
     transition: all linear .3s;
 }
 
-.menu-item:hover {
-    border: 1px solid #F7FA00;
-    background: #F7FA00;
+.menu-item img {
+    width: 150px;
+    height: 125px;
 }
 
-.menu-item:hover h2 {
-    color: #222;
-}
-
-.menu-item:hover p {
-    color: #222;
-}
-
-.menu-item h2 {
+.menu-item h5 {
     font-size: 20px;
     font-weight: 400;
     font-family: 'Alegreya', serif;
-    color: #fff;
+    color: #222;
     padding-bottom: 10px;
     transition: all linear .3s;
-}
-
-.menu-item span {
-    font-family: 'Alegreya', serif;
 }
 
 .menu-item p {
     font-size: 14px;
     font-weight: 400;
     font-family: 'Alegreya', serif;
-    color: #fff;
+    color: #222;
     letter-spacing: 1px;
     transition: all linear .3s;
 }
 
-#menu-part {
-    padding-top: 150px;
-    padding-bottom: 100px;
-    background: #444;
-    position: relative;
-    margin-bottom: 2px;
+.menu-item a {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #222;
+    padding-bottom: 10px;
+    transition: all linear .3s;
 }
 
-#menu-part:after {
+.menu-item .media-body {
+    margin-left: 15px;
+}
+
+.menu-item .menu-item-two {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.menu-item .media-body:hover h5 {
+    color: #ED4E53;
+}
+
+.menu-item .media-body:hover p {
+    color: #ED4E53;
+}
+
+.menu-item .media-body:hover a {
+    color: #ED4E53;
+    text-decoration: none;
+}
+
+.menu-item .media-body a:hover {
+    color: #222;
+    text-decoration: none;
+}
+.menu-item-img{
+    position: relative;
+}
+.menu-item-overlay{
     position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    right: 50%;
+    opacity: 0;
+    transition: all linear .3s;
 }
 
-.menu-part-header {
-    position: relative;
-    z-index: 99;
+.menu-item:hover .menu-item-overlay{
+    opacity: 1;
+    right: 0;
+}
+.menu-item-overlay-2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    opacity: 0;
+    transition: all linear .3s;
 }
 
-.menu-part-header h2 {
-    font-size: 48px;
-    font-weight: 500;
-    font-family: 'Great Vibes', cursive;
-    color: #fff;
+.menu-item:hover .menu-item-overlay-2{
+    opacity: 1;
+    left: 0;
 }
 
 .menu-button {
@@ -509,8 +546,8 @@ h6 {
 
 .menu-button .btn {
     margin-top: 30px;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #222;
+    border: 1px solid #222;
     padding: 10px 40px;
     font-size: 20px;
     font-weight: 400;
@@ -521,9 +558,9 @@ h6 {
 }
 
 .menu-button .btn:hover {
-    background: #F7FA00;
+    background: #ED4E53;
     color: #222;
-    border: 1px solid #F7FA00;
+    border: 1px solid #ED4E53;
 }
 
 
@@ -565,7 +602,7 @@ h6 {
 }
 
 .team-item .card-body {
-    border: 1px solid #F7FA00;
+    border: 1px solid #ED4E53;
 }
 
 .team-item .card-body h5 {
@@ -606,7 +643,7 @@ h6 {
 .team-item .card-img-overlay i {
     position: relative;
     font-size: 20px;
-    color: #F7FA00;
+    color: #ED4E53;
     left: 0;
     top: 0;
     transition: all linear .3s;
@@ -629,7 +666,7 @@ h6 {
 #review {
     padding-top: 65px;
     padding-bottom: 65px;
-    background: url(../img/review.jpg);
+    background: url(../img/review/review.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -643,7 +680,7 @@ h6 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
 
 }
 
@@ -709,7 +746,7 @@ h6 {
 }
 
 .review-item i:hover {
-    color: #F7FA00;
+    color: #ED4E53;
 }
 
 .review-item img {
@@ -776,7 +813,7 @@ h6 {
 
 
 .form-control {
-    border: 1px dashed #F7FA00;
+    border: 1px dashed #ED4E53;
     border-radius: 0;
     padding: 10px 20px;
 }
@@ -789,7 +826,7 @@ h6 {
 .table-button .btn {
     margin-top: 30px;
     color: #222;
-    border: 1px dashed #F7FA00;
+    border: 1px dashed #ED4E53;
     padding: 10px 40px;
     font-size: 20px;
     font-weight: 400;
@@ -800,7 +837,7 @@ h6 {
 }
 
 .table-button .btn:hover {
-    background: #F7FA00;
+    background: #ED4E53;
     color: #fff;
 }
 
@@ -809,7 +846,7 @@ h6 {
     background-color: #fff;
     border-color: #80bdff;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem #F7FA00;
+    box-shadow: 0 0 0 0.2rem #ED4E53;
 }
 
 
@@ -817,7 +854,7 @@ h6 {
 #open {
     padding-top: 80px;
     padding-bottom: 55px;
-    background: url(../img/open.jpg);
+    background: url(../img/open/open.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -921,8 +958,8 @@ h6 {
 .open-contact a {
     font-size: 32px;
     font-weight: 400;
-    font-family: 'Alegreya Sans', sans-serif;
-    color: #F7FA00;
+    font-family: 'Alegreya', serif;
+    color: #ED4E53;
 }
 
 .open-contact {
@@ -961,7 +998,7 @@ h6 {
 .gallary-overlay i {
     position: relative;
     font-size: 20px;
-    color: #F7FA00;
+    color: #ED4E53;
     left: 50%;
     top: 0;
     transform: translate(-50%, -50%);
@@ -1015,8 +1052,8 @@ h6 {
 
 .gallary-button .btn:hover {
     color: #222;
-    background: #F7FA00;
-    border: 1px solid #F7FA00;
+    background: #ED4E53;
+    border: 1px solid #ED4E53;
 }
 
 .gallary-button {
@@ -1037,58 +1074,8 @@ h6 {
 }
 
 .gal-button .btn:hover {
-    background: #F7FA00;
+    background: #ED4E53;
     color: #222;
-}
-
-/*============================IMG Part CSS Start=============================*/
-.img-img {
-    position: relative;
-    overflow: hidden;
-}
-
-.img-img img {
-    width: 100%;
-    transition: all linear .3s;
-}
-
-.img-img:hover img {
-    transform: scale(1.2);
-}
-
-.img-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    transition: all linear .3s;
-}
-
-.img-img:hover .img-overlay {
-    opacity: 1;
-}
-
-.img-overlay-text {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.img-overlay-text h2 {
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'Alegreya', serif;
-    color: #fff;
-}
-
-.img-overlay-text p {
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'Great Vibes', cursive;
-    color: #fff;
 }
 
 
@@ -1149,16 +1136,23 @@ h6 {
     font-weight: 400;
     font-family: 'Alegreya', serif;
     color: #222;
+    transition: all linear .3s;
 }
 
 .blog-item a:hover {
     text-decoration: none;
+    color: #ED4E53;
 }
 
 .blog-item i {
     font-size: 14px;
     color: #222;
     padding-left: 14px;
+    transition: all linear .3s;
+}
+.blog-item:hover i{
+    color: #ED4E53;
+    padding-left: 20px;
 }
 
 
@@ -1168,7 +1162,8 @@ h6 {
     padding-bottom: 10px;
     background: #222;
 }
-.footer-zindex{
+
+.footer-zindex {
     position: relative;
     z-index: 99;
 }
@@ -1185,7 +1180,7 @@ h6 {
 }
 
 .footer-header span {
-    color: #F7FA00;
+    color: #ED4E53;
 }
 
 .footer-left h2 {
@@ -1227,8 +1222,8 @@ h6 {
 }
 
 .footer-social i:hover {
-    color: #F7FA00;
-    border: 1px solid #F7FA00;
+    color: #ED4E53;
+    border: 1px solid #ED4E53;
 }
 
 .footer-social {
@@ -1267,7 +1262,7 @@ h6 {
 }
 
 .f-con-one {
-    border-right: 2px solid #F7FA00;
+    border-right: 2px solid #ED4E53;
 }
 
 .copyright {
@@ -1287,13 +1282,12 @@ h6 {
     color: #222;
     font-family: 'Alegreya', serif;
     padding: 10px 30px;
-    background: #F7FA00;
+    background: #ED4E53;
     border-radius: 15px 15px 0 0;
 }
 
 .footer-a a:hover {
     text-decoration: none;
-    transform: scale(1.2);
 }
 
 .footer-a {

@@ -91,13 +91,30 @@
     .menu-button .btn {
         margin: 3px 3px;
         font-size: 14px;
+        padding: 7px 25px;
     }
 
-    .menu-item h2 {
-        font-size: 18px;
+    .menu-item img {
+        width: 100px;
+        height: 80px;
+    }
+
+    .menu-item h5 {
+        font-size: 11px;
+        padding-bottom: 5px;
     }
 
     .menu-item p {
+        font-size: 10px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .menu-item span {
+        display: none;
+    }
+
+    .menu-item a {
         font-size: 11px;
     }
 
@@ -179,6 +196,8 @@
 
     .gallary-button .btn {
         margin: 5px 5px;
+        font-size: 14px;
+        padding: 7px 25px;
     }
 
     .gal-button {
@@ -352,10 +371,31 @@
 
     .menu-button .btn {
         margin: 5px 5px;
+        padding: 8px 20px;
     }
 
-    .menu-item h2 {
-        font-size: 18px;
+    .menu-item img {
+        width: 100px;
+        height: 80px;
+    }
+
+    .menu-item h5 {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+
+    .menu-item p {
+        font-size: 11px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .menu-item span {
+        display: none;
+    }
+
+    .menu-item a {
+        font-size: 13px;
     }
 
     .menu-item {
@@ -564,15 +604,29 @@
 
     .menu-button .btn {
         margin: 5px 5px;
+        padding: 10px 35px;
     }
 
-    .menu-item h2 {
-        font-size: 22px;
-    }
 
     .menu-item {
         margin-top: 15px;
         padding-bottom: 5px;
+    }
+
+
+    .menu-item h5 {
+        font-size: 18px;
+        padding-bottom: 8px;
+    }
+
+    .menu-item p {
+        font-size: 13px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .menu-item a {
+        font-size: 15px;
     }
 
     .menu-button {
